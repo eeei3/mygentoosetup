@@ -1,1 +1,1 @@
-# mygentoosetup
+# mygentoo

@@ -1,1 +1,7 @@
 whattodo
+config
+install_software.sh
+config.old
+newconfig
+software.txt
+/make.conf
