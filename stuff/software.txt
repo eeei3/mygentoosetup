@@ -22,7 +22,7 @@ dev-libs/boost
 net-ftp/ftp
 app-portage/eix
 net-nds/openldap
-
+sys-apps/apparmor
 
 #security tools
 net-analyzer/tcpdump
