@@ -93,3 +93,4 @@ app-emulation/virt-manager
 dev-libs/hidapi
 x11-libs/libxcb
 dev-libs/libusb-compat
+dev-vcs/git
