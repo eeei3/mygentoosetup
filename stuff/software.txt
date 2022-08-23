@@ -23,6 +23,7 @@ net-ftp/ftp
 app-portage/eix
 net-nds/openldap
 sys-apps/apparmor
+app-admin/conky
 
 #security tools
 net-analyzer/tcpdump
