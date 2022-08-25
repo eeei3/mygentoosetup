@@ -24,6 +24,7 @@ app-portage/eix
 net-nds/openldap
 sys-apps/apparmor
 app-admin/conky
+app-admin/usbview
 
 #security tools
 net-analyzer/tcpdump
@@ -90,6 +91,10 @@ media-video/vlc
 kde-apps/kdenlive
 app-emulation/virt-manager
 x11-libs/libXft
+acct-group/libvirt
+app-emulation/libvirt
+app-emulation/qemu
+acct-group/qemu
 
 
 #dev tools
