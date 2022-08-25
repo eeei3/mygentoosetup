@@ -18,7 +18,7 @@ net-vpn/openvpn
 dev-lang/go
 dev-lang/ruby
 dev-python/pip
-dev-libs/boost
+#dev-libs/boost
 net-ftp/ftp
 app-portage/eix
 net-nds/openldap
@@ -66,6 +66,7 @@ app-text/zathura
 media-sound/alsa-utils
 app-admin/keepassxc
 app-editors/neovim
+app-editors/vim
 www-client/firefox
 net-misc/youtube-dl
 media-video/mpv
@@ -88,6 +89,7 @@ media-video/mpv
 media-video/vlc
 kde-apps/kdenlive
 app-emulation/virt-manager
+x11-libs/libXft
 
 
 #dev tools
