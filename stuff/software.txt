@@ -23,8 +23,11 @@ net-ftp/ftp
 app-portage/eix
 net-nds/openldap
 sys-apps/apparmor
+sys-apps/apparmor-utils
 app-admin/conky
 app-admin/usbview
+x11-apps/xsetroot
+sys-auth/elogind
 
 #security tools
 net-analyzer/tcpdump
@@ -37,21 +40,14 @@ net-analyzer/netcat
 net-analyzer/scapy
 net-analyzer/hydra
 net-analyzer/yersinia
-net-analyzer/masscan
 net-analyzer/arp-scan
 net-analyzer/hping
 net-proxy/mitmproxy
 net-vpn/httptunnel
 net-dns/dnshijacker
-net-dns/dnswalk
-net-analyzer/fragroute
-net-analyzer/firewalk
-net-analyzer/dnsenum
 www-client/httrack
 app-crypt/hashcat
 app-crypt/mhash
-net-wireless/aircrack-ng
-net-misc/socat
 media-libs/exiftool
 app-misc/binwalk
 net-misc/whois
@@ -72,7 +68,7 @@ www-client/firefox
 net-misc/youtube-dl
 media-video/mpv
 media-gfx/gimp
-net-libs/glib-networking
+#net-libs/glib-networking
 x11-apps/mesa-progs
 app-office/calcurse
 net-im/discord-bin
@@ -83,7 +79,6 @@ app-text/apvlv
 app-office/libreoffice
 mail-client/thunderbird
 net-p2p/qbittorrent
-media-video/obs-studio
 media-sound/mpd
 acct-user/mpd
 media-video/mpv
@@ -95,10 +90,20 @@ acct-group/libvirt
 app-emulation/libvirt
 app-emulation/qemu
 acct-group/qemu
-
+x11-misc/dmenu
+net-vpn/tor
+media-video/nvidia-video-codec
+media-video/obs-studio
 
 #dev tools
 dev-libs/hidapi
 x11-libs/libxcb
 dev-libs/libusb-compat
+dev-libs/libusb
 dev-vcs/git
+dev-lang/rust
+dev-lang/lua
+dev-libs/cudnn
+dev-util/nvidia-cuda-sdk
+dev-util/nvidia-cuda-toolkit
+media-gfx/nvidia-cg-toolkit

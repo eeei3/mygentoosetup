@@ -35,22 +35,22 @@ printf "Installing software listed in software.txt...\n"
 SOFTWARE="`sed -e 's/#.*$//' -e '/^$/d' software.txt | tr '\n' ' '`"
 
 emerge --noreplace app-eselect/eselect-repository dev-vcs/git
-eselect repository enable steam-overlay
+#eselect repository enable steam-overlay
 emerge --sync
-emerge --autounmask-continue games-util/steam-launcher games-util/steam-meta
+#emerge --autounmask-continue games-util/steam-launcher games-util/steam-meta
 emerge --autounmask-continue -q $SOFTWARE
-emerge --autounmask-continue app-portage/layman
-layman -L
-layman -a pentoo
-USE="postgres" emerge --autounmask-continue net-analyzer/metasploit
-emerge --autounmask-continue net-analyzer/responder
-emerge --autounmask-continue net-analyzer/crackmapexec
-emerge --autounmask-continue net-analyzer/ffuf
-emerge --autounmask-continue net-analyzer/gobuster
-emerge --autounmask-continue net-proxy/zaproxy
-emerge --autounmask-continue app-forensics/spiderfoot
-emerge --autounmask-continue acct-group/spiderfoot
-emerge --autounmask-continue net-analyzer/theHarvester
+#emerge --autounmask-continue app-portage/layman
+#layman -L
+#layman -a pentoo
+#USE="postgres" emerge --autounmask-continue net-analyzer/metasploit
+#emerge --autounmask-continue net-analyzer/responder
+#emerge --autounmask-continue net-analyzer/crackmapexec
+#emerge --autounmask-continue net-analyzer/ffuf
+#emerge --autounmask-continue net-analyzer/gobuster
+#emerge --autounmask-continue net-proxy/zaproxy
+#emerge --autounmask-continue app-forensics/spiderfoot
+#emerge --autounmask-continue acct-group/spiderfoot
+#emerge --autounmask-continue net-analyzer/theHarvester
 
 #layman -a pentoo
 #installs software from pentoo overlay
